@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60eee4379ea49ab4c86403060313a150, type: 3}
+  m_Name: DefaultInteraction
+  m_EditorClassIdentifier: Assembly-CSharp::InteractionConfig
+  Prefab: {fileID: 4747749828381225479, guid: 521897ba8fabcea40949e7ec1c3097b8, type: 3}

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1105 &110500000
+HumanTemplate:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MixamoNpcMapping
+  m_BoneTemplate:
+    Chest: Spine1
+    Head: Head
+    Hips: Hips
+    Left Index Distal: HandIndex3.L
+    Left Index Intermediate: HandIndex2.L
+    Left Index Proximal: HandIndex1.L
+    Left Thumb Distal: HandThumb3.L
+    Left Thumb Intermediate: HandThumb2.L
+    Left Thumb Proximal: HandThumb1.L
+    LeftFoot: Foot.L
+    LeftHand: Hand.L
+    LeftLowerArm: ForeArm.L
+    LeftLowerLeg: Leg.L
+    LeftShoulder: Shoulder.L
+    LeftToes: ToeBase.L
+    LeftUpperArm: Arm.L
+    LeftUpperLeg: UpLeg.L
+    Neck: Neck
+    Right Index Distal: HandIndex3.R
+    Right Index Intermediate: HandIndex2.R
+    Right Index Proximal: HandIndex1.R
+    Right Thumb Distal: HandThumb3.R
+    Right Thumb Intermediate: HandThumb2.R
+    Right Thumb Proximal: HandThumb1.R
+    RightFoot: Foot.R
+    RightHand: Hand.R
+    RightLowerArm: ForeArm.R
+    RightLowerLeg: Leg.R
+    RightShoulder: Shoulder.R
+    RightToes: ToeBase.R
+    RightUpperArm: Arm.R
+    RightUpperLeg: UpLeg.R
+    Spine: Spine
+    UpperChest: Spine2

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73eb04d77eab2324ea6b572fe6210234, type: 3}
+  m_Name: Johnny
+  m_EditorClassIdentifier: Assembly-CSharp::Character
+  Name: "\u0414\u0436\u043E\u043D\u043D\u0438"
+  TextColor: {r: 0.59527415, g: 0.8584906, b: 0.72569674, a: 1}
+  TextPrefix: '- ('
+  TextPostfix: )
+  TextSound: {fileID: 8300000, guid: 7d16286248475b64f97c7870bc1f0102, type: 3}
+  TypingSpeed: 80
+  NewLineTypingSpeed: 500
+  CommaTypingSpeed: 200
+  PeriodTypingSpeed: 80
+  DashTypingSpeed: 200
