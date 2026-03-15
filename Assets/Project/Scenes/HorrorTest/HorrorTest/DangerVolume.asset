@@ -1,5 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7870659854352261032
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac245062608d173449fcef3f0fff9479, type: 3}
+  m_Name: PixelizeEffect
+  m_EditorClassIdentifier: Assembly-CSharp::PixelizeEffect
+  active: 1
+  PixelSize:
+    m_OverrideState: 1
+    m_Value: 2
 --- !u!114 &-7214054570795475553
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -25,6 +41,25 @@ MonoBehaviour:
   texture:
     m_OverrideState: 0
     m_Value: {fileID: 0}
+--- !u!114 &-6780754183497618123
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb60a22f311433c4c962b888d1393f88, type: 3}
+  m_Name: PaniniProjection
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.PaniniProjection
+  active: 1
+  distance:
+    m_OverrideState: 1
+    m_Value: 0
+  cropToFit:
+    m_OverrideState: 0
+    m_Value: 0
 --- !u!114 &-3717445446160003714
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -80,6 +115,8 @@ MonoBehaviour:
   - {fileID: -1299010401833099255}
   - {fileID: 2475425638748286484}
   - {fileID: -3717445446160003714}
+  - {fileID: -7870659854352261032}
+  - {fileID: -6780754183497618123}
 --- !u!114 &2475425638748286484
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -95,10 +132,10 @@ MonoBehaviour:
   active: 1
   postExposure:
     m_OverrideState: 1
-    m_Value: 3.9
+    m_Value: 1.62
   contrast:
     m_OverrideState: 1
-    m_Value: -43
+    m_Value: -1.7
   colorFilter:
     m_OverrideState: 1
     m_Value: {r: 1, g: 0.7783019, b: 0.7783019, a: 1}
@@ -107,4 +144,4 @@ MonoBehaviour:
     m_Value: -16
   saturation:
     m_OverrideState: 1
-    m_Value: 22
+    m_Value: 20.2
