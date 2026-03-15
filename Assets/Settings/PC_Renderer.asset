@@ -16,6 +16,27 @@ MonoBehaviour:
   _event: 600
   _pass: {fileID: -469970938276694829}
   _blitShader: {fileID: 4800000, guid: c17132b1f77d20942aa75f8429c0f8bc, type: 3}
+--- !u!114 &-3572610910006045322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4d3961f3564a064ba6e060882870e4b, type: 3}
+  m_Name: PixelizeRenderFeature
+  m_EditorClassIdentifier: Assembly-CSharp::PixelizeRenderFeature
+  m_Active: 1
+  injectionPoint: 600
+  fetchColorBuffer: 1
+  requirements: 0
+  passMaterial: {fileID: 2100000, guid: ea26934041b037c4194dfa9ebb531a59, type: 2}
+  passIndex: 0
+  bindDepthStencilAttachment: 0
+  m_Version: 1
+  pixelSizePropertyName: _PixelSize
 --- !u!114 &-3413325150431587350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91,7 +112,8 @@ MonoBehaviour:
   m_RendererFeatures:
   - {fileID: 7833122117494664109}
   - {fileID: 1103482800066930372}
-  m_RendererFeatureMap: ad6b866f10d7b46cc426be99c25b500f
+  - {fileID: -3572610910006045322}
+  m_RendererFeatureMap: ad6b866f10d7b46cc426be99c25b500f7695674c4e896bce
   m_UseNativeRenderPass: 1
   xrSystemData: {fileID: 0}
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}

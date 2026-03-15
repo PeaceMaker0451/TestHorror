@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Npc
   _character: {fileID: 0}
-  _followTriggerDistance: 2
+  _followTriggerDistance: 1
 --- !u!95 &9061822088021980143
 Animator:
   serializedVersion: 7

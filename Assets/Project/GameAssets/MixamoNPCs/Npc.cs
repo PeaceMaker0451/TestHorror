@@ -49,7 +49,7 @@ public class Npc : MonoBehaviour, IAnimationActor, ITextActor
         _animator = GetComponent<Animator>();
         _navAgent = GetComponent<NavMeshAgent>();
 
-        _navAgent.updatePosition = true;
+        _navAgent.updatePosition = false;
         _navAgent.updateRotation = true;
     }
 
@@ -66,6 +66,22 @@ public class Npc : MonoBehaviour, IAnimationActor, ITextActor
                 _animator.SetFloat("Speed", 0f);
             }
         }
+    }
+
+    private void OnAnimatorMove()
+    {
+        var pos = _animator.rootPosition;
+        pos.y = _navAgent.nextPosition.y;
+        transform.position = pos;
+
+        if (_navAgent.hasPath && _navAgent.desiredVelocity.magnitude > 0)
+            transform.rotation = Quaternion.Lerp(
+                transform.rotation,
+                Quaternion.LookRotation(_navAgent.desiredVelocity),
+                Time.deltaTime * 10f
+            );
+
+        _navAgent.nextPosition = transform.position;
     }
 
     public void SetArmed(bool isArmed)
